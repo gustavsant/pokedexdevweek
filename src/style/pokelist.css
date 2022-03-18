@@ -1,0 +1,33 @@
+.pokelist{
+    max-width: 300px;
+}
+.pokemon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    background-color: #6b727a;
+    color: white;
+    padding: 0 5px;
+    border-radius: 0 30px 30px 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+    transition: 0.15s ease-in-out;
+}
+
+.pokemon:hover{
+    transform: scale(1.05);
+}
+
+.pokemon img{
+    width: 18%;
+    padding: 3px 0;
+}
+
+.pokemon span{
+    padding-right: 100px;
+}
+
+.pokemon.active{
+    background-color: coral;
+}

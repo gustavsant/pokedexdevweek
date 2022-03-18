@@ -1,0 +1,97 @@
+.pokecard{
+    box-shadow: inset rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    box-shadow: unset rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 9px;
+    max-width: 430px;
+    max-height: 817px;
+    display: none;
+    transition: 1s ease-in-out;
+}
+
+.topcard{
+    padding: 30px 40px 0px;
+    max-height: 436px;
+
+}
+
+.name{
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.type{
+    background-color: white;
+    opacity: 50%;
+    padding: 3px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.details{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pokeimage{
+    max-width: 350px;
+    max-height: 350px;
+}
+.pokeimage img{
+    height: 350px;
+    width: 350px;
+}
+
+.infocard{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -80px;
+    padding: 70px 35px;
+    background-color: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.infocard li{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+    padding: 7px;
+    font-size: 18px;
+}
+
+.infocard h3{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.452);
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.pokecard.open{
+    display: block;
+}
+
+.tipo-fogo{
+    transition: 1s ease-in-out;
+    background-image: linear-gradient(360deg, #ff0000 0%, #ff6600 100%);
+}
+
+.tipo-grama{
+    transition: 1s ease-in-out;
+    background-image: linear-gradient(360deg, #8cc702 0%, #96e6a1 100%);
+}
+
+.tipo-gelo{
+    transition: 1s ease-in-out;
+    background-image: linear-gradient(360deg, #89f7fe 0%, #66a6ff 100%);
+} 
+.tipo-raio{
+    transition: 1s ease-in-out;
+    background-image: linear-gradient(360deg, #f6fa20 0%, #ffcc2f 74%);
+}
+.tipo-fantasma{
+    transition: 1s ease-in-out;
+    background-image: linear-gradient(360deg, #65379B 0%, #886AEA 53%, #6457C6 100%);
+}
+.tipo-psiquico{
+    transition: 1s ease-in-out;
+    background-image: linear-gradient(360deg, #e899dc 0%, #db9ab8 74%);
+}
